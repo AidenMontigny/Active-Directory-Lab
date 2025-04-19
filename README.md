@@ -19,7 +19,7 @@ This project involved setting up and configuring an Active Directory environment
 
 <h2>Project walk-through:</h2>
 <p align="left">
-Documented the successful completion of the Active Directory installation selection process, <br/> confirming that all necessary components were properly configured for domain services deployment. <br/><br/>
+Documented the successful completion of the Active Directory installation selection process, <br/> confirming that all necessary components were properly configured for domain services <br/> deployment. <br/><br/>
   <img src="Screenshot 2025-04-17 202325.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
 <p align="left">
@@ -31,7 +31,7 @@ Verified successful domain configuration through the login interface, which now 
   <img src="Screenshot 2025-04-17 202340.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
   <p align="left">
-Confirmed full server configuration by verifying that Server Manager components were populated <br/> correctly and that the `nslookup` command returned accurate DNS results, indicating successful Active Directory and DNS integration. <br/><br/>
+Confirmed full server configuration by verifying that Server Manager components were populated <br/> correctly and that the `nslookup` command returned accurate DNS results, indicating  <br/> successful Active Directory and DNS integration. <br/><br/>
   <img src="Screenshot 2025-04-17 202346.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
   <p align="left">
@@ -51,7 +51,7 @@ Confirmed the successful addition of all 10 user accounts within the designated 
   <img src="Screenshot 2025-04-17 202415.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
   <p align="left">
-Demonstrated the use of PowerShell commands to efficiently create five security groups within <br/> the organizational unit, supporting structured access control and group-based policy management. <br/><br/>
+Demonstrated the use of PowerShell commands to efficiently create five security groups within <br/> the organizational unit, supporting structured access control and group-based policy  <br/> management. <br/><br/>
   <img src="Screenshot 2025-04-17 202421.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
   <p align="left">
