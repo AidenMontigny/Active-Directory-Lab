@@ -19,55 +19,88 @@ This project involved setting up and configuring an Active Directory environment
 
 <h2>Project walk-through:</h2>
 <p align="left">
-TEXT <br/><br/>
+Documented the successful completion of the Active Directory installation selection process, confirming that all necessary components were properly configured for domain services deployment. <br/><br/>
   <img src="Screenshot 2025-04-17 202325.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
 <p align="left">
-TEXT <br/><br/>
+Configured the Root Domain Name as **Montigny.com**, establishing the foundational structure for the Active Directory domain environment. <br/><br/>
   <img src="Screenshot 2025-04-17 202331.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
   <p align="left">
-TEXT <br/><br/>
+Verified successful domain configuration through the login interface, which now reflects the domain name Montigny, confirming integration with the Active Directory environment. <br/><br/>
   <img src="Screenshot 2025-04-17 202340.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
   <p align="left">
-TEXT <br/><br/>
+Confirmed full server configuration by verifying that Server Manager components were populated correctly and that the `nslookup` command returned accurate DNS results, indicating successful Active Directory and DNS integration. <br/><br/>
   <img src="Screenshot 2025-04-17 202346.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
   <p align="left">
-TEXT <br/><br/>
+Created a new Organizational Unit (OU) titled **CYB-515** within Active Directory to logically group related users and resources, supporting structured administration and access control. <br/><br/>
   <img src="Screenshot 2025-04-17 202358.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
   <p align="left">
-TEXT <br/><br/>
+Created the first user account, 'Aiden Montigny', in Active Directory using command-line tools to demonstrate efficient user provisioning and adherence to administrative best practices. <br/><br/>
   <img src="Screenshot 2025-04-17 202404.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
   <p align="left">
-TEXT <br/><br/>
+Demonstrated the batch creation of nine additional user accounts via the command prompt, showcasing streamlined user provisioning within the organizational unit. <br/><br/>
   <img src="Screenshot 2025-04-17 202410.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
   <p align="left">
-TEXT <br/><br/>
+Confirmed the successful addition of all 10 user accounts within the designated organizational unit (OU), ensuring proper user management and directory structure. <br/><br/>
   <img src="Screenshot 2025-04-17 202415.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
   <p align="left">
-TEXT <br/><br/>
+Demonstrated the use of PowerShell commands to efficiently create five security groups within the organizational unit, supporting structured access control and group-based policy management. <br/><br/>
   <img src="Screenshot 2025-04-17 202421.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
   <p align="left">
-TEXT <br/><br/>
+Displayed the successful addition of the five security groups to the organizational unit, ensuring proper access control and group management within the Active Directory environment. <br/><br/>
   <img src="Screenshot 2025-04-17 202426.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
   <p align="left">
-TEXT <br/><br/>
+Displayed the default password policy settings within the Active Directory environment, outlining the initial configuration for password complexity and requirements. <br/><br/>
   <img src="Screenshot 2025-04-17 202435.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
   <p align="left">
-TEXT <br/><br/>
+ Displayed the updated password policy, which reflects the newly configured security requirements for user accounts in the domain. <br/><br/>
   <img src="Screenshot 2025-04-17 202441.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
   <p align="left">
-TEXT <br/><br/>
+Executed the ‘gpupdate /force’ command to enforce the application of the updated group policy, ensuring that the new settings take effect across the domain. <br/><br/>
   <img src="Screenshot 2025-04-17 202446.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
+
+<h2>Write Up</h2>
+Vulnerabilities and Risks of Access Control <br/>
+Access control has many vulnerabilities and risks that pose a significant threat to an organization's infrastructure. Most vulnerabilities associated with AC are linked to authentication mechanisms or broad access permissions (HackerWhite, 2024). Without ensuring that there are robust AC measures, hackers have a platform for exploitation, which may lead to the access of confidential data, system alteration, financial losses, or much more. At the same time, if a company does not have any access control in place, it can be very detrimental. Access control aids in limiting the right to access critical data if not necessary. For example, if an organization did not have access control, an intern could potentially have access to the same amount of information as an executive employee, which could lead to detrimental circumstances for that organization. <br/>
+<br/>
+Importance of Access Control Principles in Security <br/>
+Access control principles are crucial for maintaining security by ensuring that only authorized users have access to specific data. For example, the principle of least privilege is key as it minimizes the potential damage of someone accessing data they are not intended to see. I believe that all companies should have a ‘need-to-know’ basis, which would aid in limiting the amount of access and knowledge employees have on the systems and data based on their role. Overall, AC is crucial for any company as it aids in ensuring its systems and data are safeguarded from misuse. <br/>
+<br/>
+Common Security Failures in Workstations and Servers <br/>
+Two of the most common security failures are inadequate patch management and access control. Inadequate patch management is when a system is not up to date with the latest security patches, leading to more vulnerabilities and security issues (Leyden, 2024). However, the issue sometimes will not be fixed by just updating the systems, as attackers can create their access before the update is put in place, leading to backdoor exploits. Access control issues all occur when permissions are not correctly configured, giving more access to users than they should have. These two issues can create significant issues for any organization and can lead to drastic financial losses. <br/>
+<br/>
+Basic Security Implications of Modern Computing Environments <br/>
+Modern computing environments, although beneficial, have some significant security issues. Some of these issues are data breaches, unauthorized access, and loss of control over data (Subramanian, 2018). Because modern computing environments are more complex, it has made ensuring security has become much harder and has led to some issues. However, with encryption, strong access control, and monitoring, these issues can be drastically reduced. <br/>
+<br/>
+Developing Efficient System Solutions for Digital Assets<br/>
+Developing efficient system solutions for digital assets requires security. Securing your digital assets typically involves encryption and MFA. As well, it is key to have a scalable system to ensure that it can meet the volume of assets being added. Overlapping balancing security and scalability for all digital assets is crucial, as it will create a robust framework for your system. <br/>
+<br/>
+Hardware Components of Modern Computing<br/>
+Modern computing relies on several key hardware components. These components include, but are not limited to, CPU, RAM, storage, GPU, PSU, and motherboard. All these components aid a computer in providing its intended functions. <br/>
+<br/>
+Secure Design Principles for User Account Creation <br/>
+To ensure that the user account creation is secure, a few things can be done. The first principle that should be applied is the least privilege. The least privilege ensures that the user only has access to information necessary for their job function. Secondly, applying authentication and authorization is crucial as it will aid in protecting against unauthorized access to accounts and data. Thirdly, monitoring user activities and ensuring that no suspicious activities are happening on any account or network is crucial to ensure security within the organization. Overall, applying different security measures for user accounts is crucial as it will aid the company's security posture and create a smaller attack surface for any malicious actors. <br/>
+<br/>
+Comparing Virtualization in Windows and Linux Operating Systems <br/>
+Both Windows and Linux OS have many pros; however, because they are so different, there could be more pros in using one over the other. For example, Windows is known for its VM managers such as Hyper-V and VMware, which are both used in most cyber professions (Henderson, 2022). However, they do come with a price and use a lot more resources than other Linux options. Linux has a VM manager named Docker, which is known for being lightweight and affordable. However, both Windows and Linux have great VM resources for any user; at the end of the day, it comes down to preference and what it is being used for. <br/>
+<br/>
+References <br/>
+Access control: Understanding & mitigating the risks in the Internal Network. HackerWhite. (n.d.). https://hackerwhite.com/vulnerability101/internal-network/access-control-vulnerability <br/>
+Henderson, T. (2022, April 1). What is the difference between Linux and Windows?. Linode Guides & Tutorials. https://www.linode.com/docs/guides/linux-vs-windows/ <br/>
+Leyden, J. (2024, September 16). Patch Management: A dull pain that won’t go away. CSO Online. https://www.csoonline.com/article/3520881/patch-management-a-dull-it-pain-that-wont-go-away.html <br/>
+Subramanian, N. (2018, July 19). Recent security challenges in cloud computing. Computers & Electrical Engineering. https://www.sciencedirect.com/science/article/abs/pii/S0045790617320724 <br/>
+
+
   
