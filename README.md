@@ -20,5 +20,54 @@ This project involved setting up and configuring an Active Directory environment
 <h2>Project walk-through:</h2>
 <p align="left">
 TEXT <br/><br/>
-  <img src="Screenshot 2025-04-17 175330.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="Screenshot 2025-04-17 202325.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
+<p align="left">
+TEXT <br/><br/>
+  <img src="Screenshot 2025-04-17 202331.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+  <p align="left">
+TEXT <br/><br/>
+  <img src="Screenshot 2025-04-17 202340.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+  <p align="left">
+TEXT <br/><br/>
+  <img src="Screenshot 2025-04-17 202346.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+  <p align="left">
+TEXT <br/><br/>
+  <img src="Screenshot 2025-04-17 202358.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+  <p align="left">
+TEXT <br/><br/>
+  <img src="Screenshot 2025-04-17 202404.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+  <p align="left">
+TEXT <br/><br/>
+  <img src="Screenshot 2025-04-17 202410.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+  <p align="left">
+TEXT <br/><br/>
+  <img src="Screenshot 2025-04-17 202415.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+  <p align="left">
+TEXT <br/><br/>
+  <img src="Screenshot 2025-04-17 202421.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+  <p align="left">
+TEXT <br/><br/>
+  <img src="Screenshot 2025-04-17 202426.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+  <p align="left">
+TEXT <br/><br/>
+  <img src="Screenshot 2025-04-17 202435.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+  <p align="left">
+TEXT <br/><br/>
+  <img src="Screenshot 2025-04-17 202441.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+  <p align="left">
+TEXT <br/><br/>
+  <img src="Screenshot 2025-04-17 202446.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+  
