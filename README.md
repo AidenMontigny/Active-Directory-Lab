@@ -15,7 +15,7 @@ This project involved setting up and configuring an Active Directory environment
 
 <h2>Environments Used </h2>
 
-- <b> WIndows Server 2019 </b>
+- <b> Windows Server 2019 </b>
 
 <h2>Project walk-through:</h2>
 <p align="left">
